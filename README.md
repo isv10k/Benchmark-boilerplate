@@ -19,7 +19,7 @@ Example in **jmharchetype** folder.
         -Dversion=1.0
 2. Building benchmark
 
-        $ cd test/
+        $ cd jmharchetype/
         $ mvn clean verify
 3. Running benchmark
         
