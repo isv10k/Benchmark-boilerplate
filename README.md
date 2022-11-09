@@ -17,6 +17,9 @@ Example in **jmharchetype** folder.
         -DgroupId=com.isv10k \
         -DartifactId=jmharchetype \
         -Dversion=1.0
+
+   [Generated pom file](https://github.com/isv10k/Benchmark-boilerplate/blob/main/jmharchetype/pom.xml)
+
 2. Building benchmark
 
         $ cd jmharchetype/
@@ -45,8 +48,8 @@ You only need to add these dependencies in your pom file, or have them on the cl
       </dependencies>
 
 If setup is correct you can just press JMH plugin button near class or method declaration, for more info [JMH plugin](https://github.com/artyushov/idea-jmh-plugin#intellij-idea-plugin-for-java-microbenchmark-harness-jmh)
-
+[pom file](https://github.com/isv10k/Benchmark-boilerplate/blob/main/jmhplugin/pom.xml)
 ## Running from the `main()` method
 
 You need to have same dependencies from previous point, just add `main()` method, and set up running configuration with `OptionsBuilder` class.
-Example in jmhwithmain folder.
+Example in jmhwithmain folder, with some testing setup: [code](https://github.com/isv10k/Benchmark-boilerplate/blob/main/jmhwithmain/src/main/java/com/isv10k/ToBenchmark.java)
